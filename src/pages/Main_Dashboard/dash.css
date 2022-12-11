@@ -1,0 +1,19 @@
+.outlet-body {
+  background: linear-gradient(
+    89.32deg,
+    #00468a 13.18%,
+    rgba(0, 70, 149, 0.98) 44.49%,
+    rgba(0, 86, 175, 0.83) 88.32%
+  );
+}
+
+.outlet-media > div:first-child {
+  height: 100%;
+}
+
+
+/* @media only screen and (max-width: 2537px) and (min-width: 1280px) {
+  .outlet-media {
+    padding-left: 34rem;
+  }
+} */
