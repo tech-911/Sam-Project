@@ -4,6 +4,7 @@ import { FiMonitor } from "react-icons/fi";
 import { BsInfoCircle } from "react-icons/bs";
 import { TbLogout } from "react-icons/tb";
 import Logo from "../../assets/logo.png";
+import { CgDatabase } from "react-icons/cg";
 import "./dash.css";
 
 function Dashboard({ siginOUt }) {
@@ -69,7 +70,7 @@ function Dashboard({ siginOUt }) {
                   border === 3 ? "border-r-8" : ""
                 } w-full py-3`}
               >
-                <FiMonitor className="text-[24px]" />
+                <CgDatabase className="text-[24px] text-[white]" />
                 <p className="text-[15px] font-[inter] font-semibold ml-2">
                   Logs
                 </p>
@@ -90,7 +91,7 @@ function Dashboard({ siginOUt }) {
             </div>
           </div>
         </div>
-        <div className="outlet-body w-screen h-full outlet-media">
+        <div className="outlet-body w-screen h-full outlet-media overflow-x-hidden">
           <Outlet />
         </div>
       </div>

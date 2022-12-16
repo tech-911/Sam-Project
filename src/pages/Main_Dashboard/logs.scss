@@ -1,0 +1,28 @@
+.logs_wrapper {
+  .logs_widget {
+    box-shadow: 38px 26px 140px -63px rgba(0, 0, 0, 0.25);
+    .logs_table {
+      &::-webkit-scrollbar {
+        background: #e0e0e0;
+        border-radius: 8px;
+        height: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #2f81cd;
+        border-radius: 8px;
+        border: 2px solid #e0e0e0;
+        &:hover {
+          background-color: #00468a;
+        }
+      }
+      .logs_title {
+        grid-template-columns: repeat(15, minmax(0, 1fr));
+      }
+      .logs_content {
+        .logs_item1 {
+          grid-template-columns: repeat(15, minmax(0, 1fr));
+        }
+      }
+    }
+  }
+}
