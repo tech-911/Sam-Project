@@ -11,3 +11,12 @@
 .background {
   background: linear-gradient(90deg, #00365a 30.15%, #006cb5 90.84%);
 }
+
+.signup_signin_res {
+  @media screen and (max-width: 769px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 450px) {
+    width: 90%;
+  }
+}

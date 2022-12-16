@@ -1,12 +1,11 @@
 import React from "react";
-
+import "./about.scss";
 const About = () => {
   return (
-    <div className="flex flex-col overflow-y-scroll">
+    <div className="flex flex-col overflow-y-scroll about_wrapper">
       <div className="border-b-2 border-b-[#002956] flex flex-col items-center py-4">
         <p className="text-[22px] font-bold text-[white] text-center px-10">
-          Development of a Data Logging Model for Metropolitan Vehicles Movement
-          Monitoring and Control System
+          Vehicle Data Logging System
         </p>
         {/* <p className="text-[20px] font-semibold text-[white]">(IS4RM)</p> */}
       </div>
@@ -50,7 +49,7 @@ const About = () => {
           Data Logging Model, Metropolitan City, Vehicle Movement Monitoring.
         </p>
       </div>
-      <div className="w-full bg-[#01336A] pt-6 pb-6 flex flex-row items-center justify-center border-2 border-[#0c2e4d] text-[#b1b1b1]">
+      <div className="text-center w-full bg-[#01336A] pt-6 pb-6 flex flex-row items-center justify-center border-2 border-[#0c2e4d49] text-[#b1b1b1]">
         © Developed by Samuel Adeniyi, Mechatronics Engineer
       </div>
     </div>

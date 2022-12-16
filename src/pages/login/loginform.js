@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./login.css";
+import "./login.scss";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 // import fire from "../../firebase/firebaseConfig";
@@ -89,20 +89,19 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="wrapper">
+      <div className="wrapper overflow-y-scroll">
         <div className="container mx-auto px-4 flex flex-col items-center ">
           <div className="mt-10 mb-10">
             <img src={logo} alt="iuni-ibadan logo" className="" />
           </div>
 
           <h1 className="font-[inter] font-bold text-[25px] text-center text-[white] mb-10">
-            Development of a Data Logging Model for Metropolitan Vehicles
-            Movement Monitoring and Control System
+            Vehicle Data Logging System
           </h1>
           <form
             action=""
             name=""
-            className="bg-[white] rounded-[11px] px-10 py-6 flex flex-col items-center w-1/2 mb-10"
+            className="bg-[white] rounded-[11px] px-10 py-6 flex flex-col items-center w-1/2 mb-10 signup_signin_res"
           >
             {this.state.renderSigning === "login" ? (
               <h1 className="text-center font-[inter] text-[33px] font-semibold mb-5">
