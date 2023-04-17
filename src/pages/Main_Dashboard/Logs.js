@@ -26,7 +26,7 @@ const Logs = () => {
               Car Theft
             </p>
             <p className="text-[#2F81CD] text-[16px] font-[inter] font-bold col-span-2">
-              Vehicle Number
+              Vehicle 
             </p>
           </div>
           <div className="logs_content">
